@@ -37,7 +37,7 @@ for d in dados:
     
 df = pd.DataFrame(dados)  #Salva em CSV
 df.to_csv('filmes_imdb.csv', index=False, encoding='utf-8-sig')
-print("\n✅ Dados salvos em 'filmes_imdb.csv'")
+print("\n✅ Dados salvos em 'filmes_imdb.csv '")
 
 
 
